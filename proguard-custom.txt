@@ -111,5 +111,5 @@
 -dontwarn android.net.SSLCertificateSocketFactory
 -dontwarn android.net.http.*
 
--keep public class com.google.android.gms.* { public *; }
--dontwarn com.google.android.gms.**
+-keep public class com.google.gms.* { public *; }
+-dontwarn com.google.gms.**
